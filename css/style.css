@@ -106,18 +106,12 @@ img {
         border-bottom: 10px black;
     }
 
-    .dog {
-        width: 100%;
-    }
-
     .dog2 ul {
         display: block;
         border-bottom: 10px black;
         /* border-right: none; */
     }
-    .dog2 ul {
-        width: 100%;
-    }
+
     .dog2 li {
         border-bottom: solid 2px black;
     }
