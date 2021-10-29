@@ -85,7 +85,6 @@ img {
     margin: 0 auto;
     padding: 20px 20px;
     box-sizing: border-box;
-    display: flex;
 }
 
 .dog2 ul {
@@ -104,11 +103,22 @@ img {
 @media screen and (max-width: 767px) {
     .dog {
         display: block;
-        justify-content: left;
-        align-items: left;
-        border-bottom: 2px black;
+        border-bottom: 10px black;
     }
+
     .dog {
         width: 100%;
+    }
+
+    .dog2 ul {
+        display: block;
+        border-bottom: 10px black;
+        /* border-right: none; */
+    }
+    .dog2 ul {
+        width: 100%;
+    }
+    .dog2 li {
+        border-bottom: solid 2px black;
     }
 }
